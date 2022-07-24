@@ -1,15 +1,10 @@
-import logo from './logo.svg';
-import './styles/App.css';
 import React from 'react';
+import Home from './views/Home';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-<h1>Body Tracker</h1>
-      </header>
-    </div>
+    <Home />
   );
 }
 
