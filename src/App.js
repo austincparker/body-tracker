@@ -1,13 +1,17 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './views/Home';
-
+import React from "react";
+import Home from "./views/Home";
+import lrgLogo from './assets/bodytracker-nobkg.png';
 
 function App() {
   return (
     <div className="App">
-    <Navbar />
-    <Home />
+      <div>
+        <img
+          src={lrgLogo}
+          width="300"
+        />
+      </div>
+      <Home />
     </div>
   );
 }
